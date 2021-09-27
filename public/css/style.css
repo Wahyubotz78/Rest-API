@@ -17,6 +17,34 @@ body {
 
 }
 
+body {
+	margin:0 auto;
+	padding: 0;
+	width: 250px;
+	height: 600px;
+}
+.animasi {
+	transition: all 0.1s;
+	-webkit-trantition: all 0.1s;
+}
+
+.tombol-aktif {
+	padding: 10px 40px;
+	margin-top: 250px;
+	border-radius: 10px;
+	font-family: 'pacifico',coursive;
+	font-size: 25px;
+	color: #3781FF;
+	text-decoration: none;
+}
+
+.biru {
+	background-color: #00A1FF
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+	
+	
+
 @font-face {
   font-family: 'fontello';
   src: url('./font/fontello.eot?78273339');

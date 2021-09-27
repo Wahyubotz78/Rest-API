@@ -7,7 +7,7 @@ let zahirr = db.get("zahirr");
 	console.log('')  
 }
 let axios = require('axios')
-let creator = "Velgrynd"
+let creator = "Depin"
 let cheerio = require('cheerio')
 let formData = require('form-data')
 let fetch = require('node-fetch');
@@ -35,7 +35,7 @@ loghandler = {
     error: {
         status: false,
         creator: `${creator}`,
-        message: 'An internal error occurred. Please report via WhatsApp wa.me/6288286421519'
+        message: 'An internal error occurred. Please report via WhatsApp wa.me/628871746203'
     }
 }
 
@@ -47,7 +47,7 @@ loghandler = {
 	     try {
 		      res.json({
 			  status: true,
-			  creator: 'Velgrynd',
+			  creator: 'Depin',
               note: 'Jangan Di Tembak Bang',
               result
            })

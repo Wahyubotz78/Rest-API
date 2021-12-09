@@ -2,9 +2,9 @@
   "name": "Rest-API",
   "version": "1.1.0",
   "description": "My Rest Api Project",
-  "main": "nodemon index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "index.js"
   },
   "repository": {
     "type": "git",
